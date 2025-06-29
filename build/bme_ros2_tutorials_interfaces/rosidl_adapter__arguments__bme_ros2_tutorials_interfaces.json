@@ -1,6 +1,0 @@
-{
-  "package_name": "bme_ros2_tutorials_interfaces",
-  "non_idl_tuples": [
-    "/home/himanshu/ros2_ws/src/bme_ros2_tutorials_interfaces:srv/CustomCalc.srv"
-  ]
-}

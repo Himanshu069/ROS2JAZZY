@@ -1,6 +1,0 @@
-setup.py
-bme_ros2_tutorials_interfaces/__init__.py
-bme_ros2_tutorials_interfaces.egg-info/PKG-INFO
-bme_ros2_tutorials_interfaces.egg-info/SOURCES.txt
-bme_ros2_tutorials_interfaces.egg-info/dependency_links.txt
-bme_ros2_tutorials_interfaces.egg-info/top_level.txt
