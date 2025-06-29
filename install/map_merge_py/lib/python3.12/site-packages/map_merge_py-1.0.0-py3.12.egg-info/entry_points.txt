@@ -1,0 +1,3 @@
+[console_scripts]
+explore_map = map_merge_py.explore_map:main
+map_merge = map_merge_py.map_merge:main

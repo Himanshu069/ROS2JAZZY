@@ -1,0 +1,104 @@
+[0.457s] Invoking command in '/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/om_spring_actuator_controller
+[1.586s] -- The CXX compiler identification is GNU 13.3.0
+[1.797s] -- Detecting CXX compiler ABI info
+[2.907s] -- Detecting CXX compiler ABI info - done
+[3.177s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.178s] -- Detecting CXX compile features
+[3.186s] -- Detecting CXX compile features - done
+[3.271s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.002s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.872s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[7.989s] -- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[9.048s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.224s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.560s] -- Found control_toolbox: 4.3.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[13.231s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[13.271s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[13.923s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[14.111s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[14.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.790s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[16.802s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[16.807s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.693s] -- Found controller_interface: 4.29.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[18.172s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[18.679s] -- Configuring done (18.1s)
+[18.784s] -- Generating done (0.1s)
+[18.806s] -- Build files have been written to: /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller
+[18.857s] Invoked command in '/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/om_spring_actuator_controller
+[18.917s] Invoking command in '/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller -- -j8 -l8
+[25.966s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp /home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller_parameters.yaml `[0m
+[25.966s] [ 50%] [34m[1mCreating deprecated header file /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller/include/spring_actuator_controller_parameters.hpp[0m
+[25.967s] [ 50%] Built target spring_actuator_controller_parameters
+[25.967s] [ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[35.288s] In file included from [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller.hpp:42[m[K,
+[35.288s]                  from [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:17[m[K:
+[35.292s] [01m[K/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller/include/spring_actuator_controller_parameters.hpp:1:184:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "spring_actuator_controller_parameters.hpp" is deprecated. Use #include <om_spring_actuator_controller/spring_actuator_controller_parameters.hpp> instead.[m[K’
+[35.293s]     1 | _parameters.hpp\" is deprecated. Use #include <om_spring_actuator_controller/spring_actuator_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[35.293s]       |                                                                                                                                  [01;36m[K^[m[K
+[35.293s] 
+[35.794s] /home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp: In instantiation of ‘[01m[Kspring_actuator_controller::SpringActuatorController::update(const rclcpp::Time&, const rclcpp::Duration&)::<lambda(std::vector<double, std::allocator<double> >&, const auto:47&)> [35m[K[with auto:47 = std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedStateInterface> > >][m[K[m[K’:
+[35.795s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:79:30:[m[K   required from here
+[35.795s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:74:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[35.795s]    74 |         trajectory_point_interface[index] = [01;35m[Kjoint_interface[index].get().get_value()[m[K;
+[35.796s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[35.796s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[35.796s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[35.797s]                  from [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller.hpp:26[m[K:
+[35.797s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[35.797s]    94 |   double [01;36m[Kget_value[m[K() const
+[35.797s]       |          [01;36m[K^~~~~~~~~[m[K
+[35.803s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type spring_actuator_controller::SpringActuatorController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[35.803s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:116:51:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[35.803s]   116 |     [01;35m[Kjoint_command_interface_[0][i].get().set_value(scaled_torque)[m[K;
+[35.804s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[35.804s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K:
+[35.805s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[35.805s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[35.805s]       |                      [01;36m[K^~~~~~~~~[m[K
+[35.830s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn spring_actuator_controller::SpringActuatorController::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[35.831s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:243:77:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[35.831s]   243 |       [01;35m[Kcommand_interfaces_[i * command_interface_types_.size() + j].set_value(0.0)[m[K;
+[35.832s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[35.832s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[35.832s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[35.832s]       |                      [01;36m[K^~~~~~~~~[m[K
+[43.464s] [100%] [32m[1mLinking CXX shared library libspring_actuator_controller.so[0m
+[44.189s] [100%] Built target spring_actuator_controller
+[44.258s] Invoked command in '/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller -- -j8 -l8
+[44.285s] Invoking command in '/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller
+[45.980s] -- Install configuration: ""
+[45.984s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/include/om_spring_actuator_controller
+[45.984s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp
+[45.984s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/spring_actuator_plugin.xml
+[45.985s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/include/spring_actuator_controller
+[45.985s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller
+[45.985s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/visibility_control.h
+[45.985s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/spring_actuator_controller.hpp
+[45.986s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so
+[45.986s] -- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so" to ""
+[45.987s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.sh
+[45.987s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.dsv
+[45.988s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/ament_index/resource_index/package_run_dependencies/om_spring_actuator_controller
+[45.988s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/ament_index/resource_index/parent_prefix_path/om_spring_actuator_controller
+[45.988s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.sh
+[45.989s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.dsv
+[45.989s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.sh
+[45.989s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.dsv
+[45.989s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.bash
+[45.993s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.sh
+[45.993s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.zsh
+[45.997s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.dsv
+[45.998s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.dsv
+[46.001s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/ament_index/resource_index/packages/om_spring_actuator_controller
+[46.002s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_spring_actuator_controller
+[46.002s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport.cmake
+[46.003s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport-noconfig.cmake
+[46.003s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.010s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_targets-extras.cmake
+[46.025s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig.cmake
+[46.025s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig-version.cmake
+[46.025s] -- Installing: /home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.xml
+[46.042s] Invoked command in '/home/himanshu/ros2_ws/src/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/om_spring_actuator_controller

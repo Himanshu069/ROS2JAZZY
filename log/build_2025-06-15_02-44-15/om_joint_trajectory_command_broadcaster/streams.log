@@ -1,0 +1,93 @@
+[0.069s] Invoking command in '/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster
+[4.598s] -- The CXX compiler identification is GNU 13.3.0
+[4.599s] -- Detecting CXX compiler ABI info
+[4.599s] -- Detecting CXX compiler ABI info - done
+[4.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.599s] -- Detecting CXX compile features
+[4.600s] -- Detecting CXX compile features - done
+[4.600s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.600s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.601s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[4.601s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.601s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.366s] -- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[7.485s] -- Found controller_interface: 4.29.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[8.241s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.946s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.986s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.212s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[9.761s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.944s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[9.975s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.038s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.140s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.574s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[14.821s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[17.078s] -- Configuring done (17.0s)
+[17.489s] -- Generating done (0.2s)
+[17.514s] -- Build files have been written to: /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster
+[17.589s] Invoked command in '/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster
+[17.591s] Invoking command in '/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster -- -j8 -l8
+[21.898s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp /home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster_parameters.yaml `[0m
+[25.205s] [ 50%] [34m[1mCreating deprecated header file /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster_parameters.hpp[0m
+[25.480s] [ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[25.673s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[38.925s] In file included from [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp:27[m[K,
+[38.926s]                  from [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:15[m[K:
+[38.927s] [01m[K/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster_parameters.hpp:1:214:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "joint_trajectory_command_broadcaster_parameters.hpp" is deprecated. Use #include <om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp> instead.[m[K’
+[38.927s]     1 |  deprecated. Use #include <om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp> instead."[01;36m[K)[m[K
+[38.927s]       |                                                                                                                                  [01;36m[K^[m[K
+[38.928s] 
+[40.234s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type joint_trajectory_command_broadcaster::JointTrajectoryCommandBroadcaster::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[40.235s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:276:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[40.235s]   276 |       [01;35m[Kstate_interface.get_value()[m[K;
+[40.235s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[40.236s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[40.236s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[40.240s]                  from [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp:24[m[K:
+[40.240s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[40.240s]    94 |   double [01;36m[Kget_value[m[K() const
+[40.241s]       |          [01;36m[K^~~~~~~~~[m[K
+[40.241s] [01m[K/home/himanshu/ros2_ws/src/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:267:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.242s]   267 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & /*period*/)
+[40.242s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[53.028s] [100%] [32m[1mLinking CXX shared library libjoint_trajectory_command_broadcaster.so[0m
+[53.898s] [100%] Built target joint_trajectory_command_broadcaster
+[53.970s] Invoked command in '/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster -- -j8 -l8
+[53.975s] Invoking command in '/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster
+[56.319s] -- Install configuration: ""
+[56.320s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster
+[56.320s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp
+[56.321s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/joint_trajectory_command_plugin.xml
+[56.321s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster
+[56.321s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster
+[56.322s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster/visibility_control.h
+[56.322s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp
+[56.323s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/lib/libjoint_trajectory_command_broadcaster.so
+[56.323s] -- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/lib/libjoint_trajectory_command_broadcaster.so" to ""
+[56.323s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/library_path.sh
+[56.324s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/library_path.dsv
+[56.324s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/package_run_dependencies/om_joint_trajectory_command_broadcaster
+[56.324s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/parent_prefix_path/om_joint_trajectory_command_broadcaster
+[56.325s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/ament_prefix_path.sh
+[56.327s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/ament_prefix_path.dsv
+[56.328s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/path.sh
+[56.328s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/path.dsv
+[56.328s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.bash
+[56.337s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.sh
+[56.337s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.zsh
+[56.337s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.dsv
+[56.338s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.dsv
+[56.338s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/packages/om_joint_trajectory_command_broadcaster
+[56.338s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_joint_trajectory_command_broadcaster
+[56.339s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/export_joint_trajectory_command_broadcasterExport.cmake
+[56.339s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/export_joint_trajectory_command_broadcasterExport-noconfig.cmake
+[56.340s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.340s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[56.340s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/om_joint_trajectory_command_broadcasterConfig.cmake
+[56.341s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/om_joint_trajectory_command_broadcasterConfig-version.cmake
+[56.341s] -- Installing: /home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.xml
+[56.370s] Invoked command in '/home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/om_joint_trajectory_command_broadcaster

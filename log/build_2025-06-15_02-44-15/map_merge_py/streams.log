@@ -1,0 +1,41 @@
+[4.281s] Invoking command in '/home/himanshu/ros2_ws/src/map_merge_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/map_merge_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/map_merge_py build --build-base /home/himanshu/ros2_ws/src/build/map_merge_py/build install --record /home/himanshu/ros2_ws/src/build/map_merge_py/install.log --single-version-externally-managed install_data
+[7.685s] running egg_info
+[7.686s] creating ../build/map_merge_py/map_merge_py.egg-info
+[7.686s] writing ../build/map_merge_py/map_merge_py.egg-info/PKG-INFO
+[7.686s] writing dependency_links to ../build/map_merge_py/map_merge_py.egg-info/dependency_links.txt
+[7.687s] writing entry points to ../build/map_merge_py/map_merge_py.egg-info/entry_points.txt
+[7.687s] writing requirements to ../build/map_merge_py/map_merge_py.egg-info/requires.txt
+[7.687s] writing top-level names to ../build/map_merge_py/map_merge_py.egg-info/top_level.txt
+[7.688s] writing manifest file '../build/map_merge_py/map_merge_py.egg-info/SOURCES.txt'
+[7.712s] reading manifest file '../build/map_merge_py/map_merge_py.egg-info/SOURCES.txt'
+[7.713s] writing manifest file '../build/map_merge_py/map_merge_py.egg-info/SOURCES.txt'
+[7.713s] running build
+[7.713s] running build_py
+[7.714s] creating /home/himanshu/ros2_ws/src/build/map_merge_py/build
+[7.714s] creating /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib
+[7.715s] creating /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py
+[7.717s] copying map_merge_py/map_merge.py -> /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py
+[7.721s] copying map_merge_py/__init__.py -> /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py
+[7.722s] copying map_merge_py/explore_map.py -> /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py
+[7.722s] running install
+[7.723s] running install_lib
+[7.723s] creating /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py
+[7.723s] copying /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py/map_merge.py -> /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py
+[7.724s] copying /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py/__init__.py -> /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py
+[7.729s] copying /home/himanshu/ros2_ws/src/build/map_merge_py/build/lib/map_merge_py/explore_map.py -> /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py
+[7.729s] byte-compiling /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py/map_merge.py to map_merge.cpython-312.pyc
+[7.730s] byte-compiling /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py/__init__.py to __init__.cpython-312.pyc
+[7.730s] byte-compiling /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py/explore_map.py to explore_map.cpython-312.pyc
+[7.731s] running install_data
+[7.731s] creating /home/himanshu/ros2_ws/src/install/map_merge_py/share/ament_index
+[7.731s] creating /home/himanshu/ros2_ws/src/install/map_merge_py/share/ament_index/resource_index
+[7.732s] creating /home/himanshu/ros2_ws/src/install/map_merge_py/share/ament_index/resource_index/packages
+[7.735s] copying resource/map_merge_py -> /home/himanshu/ros2_ws/src/install/map_merge_py/share/ament_index/resource_index/packages
+[7.735s] copying package.xml -> /home/himanshu/ros2_ws/src/install/map_merge_py/share/map_merge_py
+[7.736s] running install_egg_info
+[7.736s] Copying ../build/map_merge_py/map_merge_py.egg-info to /home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages/map_merge_py-1.0.0-py3.12.egg-info
+[7.736s] running install_scripts
+[7.737s] Installing explore_map script to /home/himanshu/ros2_ws/src/install/map_merge_py/lib/map_merge_py
+[7.737s] Installing map_merge script to /home/himanshu/ros2_ws/src/install/map_merge_py/lib/map_merge_py
+[7.738s] writing list of installed files to '/home/himanshu/ros2_ws/src/build/map_merge_py/install.log'
+[7.749s] Invoked command in '/home/himanshu/ros2_ws/src/map_merge_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/map_merge_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/map_merge_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/map_merge_py build --build-base /home/himanshu/ros2_ws/src/build/map_merge_py/build install --record /home/himanshu/ros2_ws/src/build/map_merge_py/install.log --single-version-externally-managed install_data

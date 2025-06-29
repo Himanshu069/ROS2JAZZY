@@ -1,0 +1,63 @@
+[0.024s] Invoking command in '/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics
+[0.502s] -- The C compiler identification is GNU 13.3.0
+[0.864s] -- The CXX compiler identification is GNU 13.3.0
+[0.901s] -- Detecting C compiler ABI info
+[1.180s] -- Detecting C compiler ABI info - done
+[1.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.227s] -- Detecting C compile features
+[1.229s] -- Detecting C compile features - done
+[1.264s] -- Detecting CXX compiler ABI info
+[1.638s] -- Detecting CXX compiler ABI info - done
+[1.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.662s] -- Detecting CXX compile features
+[1.663s] -- Detecting CXX compile features - done
+[1.706s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.964s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.287s] -- Configuring done (2.2s)
+[2.290s] -- Generating done (0.0s)
+[2.293s] -- Build files have been written to: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics
+[2.300s] Invoked command in '/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics
+[2.301s] Invoking command in '/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics -- -j8 -l8
+[2.352s] Invoked command in '/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics -- -j8 -l8
+[2.366s] Invoking command in '/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics
+[2.378s] -- Install configuration: ""
+[2.379s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/launch
+[2.379s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/world.launch.py
+[2.379s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds
+[2.379s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/world.sdf
+[2.380s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/new_world.sdf
+[2.380s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/empty.sdf
+[2.380s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz
+[2.380s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/urdf.rviz
+[2.381s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/rviz.rviz
+[2.381s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf
+[2.381s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/materials.xacro
+[2.382s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes
+[2.382s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.dae
+[2.384s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STEP
+[2.386s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_left.STL
+[2.390s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.SLDPRT
+[2.391s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STL
+[2.395s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STL
+[2.396s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_right.STL
+[2.399s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.blend
+[2.403s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STEP
+[2.404s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.SLDPRT
+[2.405s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.dae
+[2.406s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.blend
+[2.409s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_basics
+[2.410s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_basics
+[2.410s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.sh
+[2.411s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.dsv
+[2.411s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.sh
+[2.411s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.dsv
+[2.412s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.bash
+[2.412s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.sh
+[2.412s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.zsh
+[2.412s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.dsv
+[2.413s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv
+[2.413s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/ament_index/resource_index/packages/bme_gazebo_basics
+[2.413s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig.cmake
+[2.414s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig-version.cmake
+[2.414s] -- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/package.xml
+[2.418s] Invoked command in '/home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics

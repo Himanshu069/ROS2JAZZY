@@ -1,0 +1,57 @@
+[3.939s] Invoking command in '/home/himanshu/ros2_ws/src/bme_ros2_tutorials_py': AMENT_PREFIX_PATH=/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages:/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_tutorials_py build --build-base /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build install --record /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/install.log --single-version-externally-managed install_data
+[5.138s] running egg_info
+[5.138s] creating ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info
+[5.207s] writing ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/PKG-INFO
+[5.208s] writing dependency_links to ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/dependency_links.txt
+[5.209s] writing entry points to ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/entry_points.txt
+[5.209s] writing requirements to ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/requires.txt
+[5.209s] writing top-level names to ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/top_level.txt
+[5.210s] writing manifest file '../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/SOURCES.txt'
+[5.364s] reading manifest file '../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/SOURCES.txt'
+[5.366s] writing manifest file '../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info/SOURCES.txt'
+[5.367s] running build
+[5.367s] running build_py
+[5.368s] creating /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build
+[5.368s] creating /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib
+[5.369s] creating /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.369s] copying bme_ros2_tutorials_py/service_server.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.369s] copying bme_ros2_tutorials_py/publisher_oop.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.370s] copying bme_ros2_tutorials_py/service_client.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.372s] copying bme_ros2_tutorials_py/__init__.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.373s] copying bme_ros2_tutorials_py/publisher.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.373s] copying bme_ros2_tutorials_py/hello_world.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.374s] copying bme_ros2_tutorials_py/subscriber.py -> /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py
+[5.375s] running install
+[5.391s] running install_lib
+[5.462s] creating /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.463s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/service_server.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.463s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/publisher_oop.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.464s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/service_client.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.464s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/__init__.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.465s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/publisher.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.465s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/hello_world.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.465s] copying /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build/lib/bme_ros2_tutorials_py/subscriber.py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py
+[5.468s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/service_server.py to service_server.cpython-312.pyc
+[5.471s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/publisher_oop.py to publisher_oop.cpython-312.pyc
+[5.475s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/service_client.py to service_client.cpython-312.pyc
+[5.475s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/__init__.py to __init__.cpython-312.pyc
+[5.476s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/publisher.py to publisher.cpython-312.pyc
+[5.476s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/hello_world.py to hello_world.cpython-312.pyc
+[5.477s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py/subscriber.py to subscriber.cpython-312.pyc
+[5.478s] running install_data
+[5.479s] creating /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/share/ament_index
+[5.479s] creating /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/share/ament_index/resource_index
+[5.480s] creating /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/share/ament_index/resource_index/packages
+[5.480s] copying resource/bme_ros2_tutorials_py -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/share/ament_index/resource_index/packages
+[5.480s] copying package.xml -> /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/share/bme_ros2_tutorials_py
+[5.481s] running install_egg_info
+[5.564s] Copying ../build/bme_ros2_tutorials_py/bme_ros2_tutorials_py.egg-info to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages/bme_ros2_tutorials_py-0.0.0-py3.12.egg-info
+[5.567s] running install_scripts
+[6.011s] Installing py_hello_world script to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/bme_ros2_tutorials_py
+[6.012s] Installing py_publisher script to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/bme_ros2_tutorials_py
+[6.012s] Installing py_service_client script to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/bme_ros2_tutorials_py
+[6.013s] Installing py_service_server script to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/bme_ros2_tutorials_py
+[6.013s] Installing py_subscriber script to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/bme_ros2_tutorials_py
+[6.018s] Installing python_publisher_with_parameter script to /home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/bme_ros2_tutorials_py
+[6.019s] writing list of installed files to '/home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/install.log'
+[6.088s] Invoked command in '/home/himanshu/ros2_ws/src/bme_ros2_tutorials_py' returned '0': AMENT_PREFIX_PATH=/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_py/lib/python3.12/site-packages:/home/himanshu/ros2_ws/src/install/bme_ros2_tutorials_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_tutorials_py build --build-base /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/build install --record /home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_py/install.log --single-version-externally-managed install_data

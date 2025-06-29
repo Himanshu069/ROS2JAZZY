@@ -1,0 +1,2 @@
+[console_scripts]
+moveit_commander = ur_mogi_py.moveit_commander:main

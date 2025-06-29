@@ -1,0 +1,37 @@
+[3.861s] Invoking command in '/home/himanshu/ros2_ws/src/ur_mogi_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/ur_mogi_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ur_mogi_py build --build-base /home/himanshu/ros2_ws/src/build/ur_mogi_py/build install --record /home/himanshu/ros2_ws/src/build/ur_mogi_py/install.log --single-version-externally-managed install_data
+[13.038s] running egg_info
+[13.038s] creating ../build/ur_mogi_py/ur_mogi_py.egg-info
+[13.039s] writing ../build/ur_mogi_py/ur_mogi_py.egg-info/PKG-INFO
+[13.039s] writing dependency_links to ../build/ur_mogi_py/ur_mogi_py.egg-info/dependency_links.txt
+[13.040s] writing entry points to ../build/ur_mogi_py/ur_mogi_py.egg-info/entry_points.txt
+[13.040s] writing requirements to ../build/ur_mogi_py/ur_mogi_py.egg-info/requires.txt
+[13.040s] writing top-level names to ../build/ur_mogi_py/ur_mogi_py.egg-info/top_level.txt
+[13.041s] writing manifest file '../build/ur_mogi_py/ur_mogi_py.egg-info/SOURCES.txt'
+[13.041s] reading manifest file '../build/ur_mogi_py/ur_mogi_py.egg-info/SOURCES.txt'
+[13.041s] writing manifest file '../build/ur_mogi_py/ur_mogi_py.egg-info/SOURCES.txt'
+[13.042s] running build
+[13.042s] running build_py
+[13.042s] creating /home/himanshu/ros2_ws/src/build/ur_mogi_py/build
+[13.042s] creating /home/himanshu/ros2_ws/src/build/ur_mogi_py/build/lib
+[13.043s] creating /home/himanshu/ros2_ws/src/build/ur_mogi_py/build/lib/ur_mogi_py
+[13.044s] copying ur_mogi_py/__init__.py -> /home/himanshu/ros2_ws/src/build/ur_mogi_py/build/lib/ur_mogi_py
+[13.044s] copying ur_mogi_py/moveit_commander.py -> /home/himanshu/ros2_ws/src/build/ur_mogi_py/build/lib/ur_mogi_py
+[13.045s] running install
+[13.045s] running install_lib
+[13.046s] creating /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages/ur_mogi_py
+[13.046s] copying /home/himanshu/ros2_ws/src/build/ur_mogi_py/build/lib/ur_mogi_py/__init__.py -> /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages/ur_mogi_py
+[13.049s] copying /home/himanshu/ros2_ws/src/build/ur_mogi_py/build/lib/ur_mogi_py/moveit_commander.py -> /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages/ur_mogi_py
+[13.049s] byte-compiling /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages/ur_mogi_py/__init__.py to __init__.cpython-312.pyc
+[13.050s] byte-compiling /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages/ur_mogi_py/moveit_commander.py to moveit_commander.cpython-312.pyc
+[13.050s] running install_data
+[13.050s] creating /home/himanshu/ros2_ws/src/install/ur_mogi_py/share/ament_index
+[13.051s] creating /home/himanshu/ros2_ws/src/install/ur_mogi_py/share/ament_index/resource_index
+[13.051s] creating /home/himanshu/ros2_ws/src/install/ur_mogi_py/share/ament_index/resource_index/packages
+[13.051s] copying resource/ur_mogi_py -> /home/himanshu/ros2_ws/src/install/ur_mogi_py/share/ament_index/resource_index/packages
+[13.052s] copying package.xml -> /home/himanshu/ros2_ws/src/install/ur_mogi_py/share/ur_mogi_py
+[13.052s] running install_egg_info
+[13.052s] Copying ../build/ur_mogi_py/ur_mogi_py.egg-info to /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages/ur_mogi_py-1.0.0-py3.12.egg-info
+[13.053s] running install_scripts
+[13.054s] Installing moveit_commander script to /home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/ur_mogi_py
+[13.055s] writing list of installed files to '/home/himanshu/ros2_ws/src/build/ur_mogi_py/install.log'
+[13.098s] Invoked command in '/home/himanshu/ros2_ws/src/ur_mogi_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/ur_mogi_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/ur_mogi_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ur_mogi_py build --build-base /home/himanshu/ros2_ws/src/build/ur_mogi_py/build install --record /home/himanshu/ros2_ws/src/build/ur_mogi_py/install.log --single-version-externally-managed install_data

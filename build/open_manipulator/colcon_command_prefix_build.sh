@@ -1,0 +1,10 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/himanshu/ros2_ws/src/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.sh"
+. "/home/himanshu/ros2_ws/src/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.sh"
+. "/home/himanshu/ros2_ws/src/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.sh"
+. "/home/himanshu/ros2_ws/src/install/open_manipulator_description/share/open_manipulator_description/package.sh"
+. "/home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/package.sh"
+. "/home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/package.sh"
+. "/home/himanshu/ros2_ws/src/install/open_manipulator_teleop/share/open_manipulator_teleop/package.sh"
+. "/home/himanshu/ros2_ws/src/install/open_manipulator_bringup/share/open_manipulator_bringup/package.sh"
+. "/home/himanshu/ros2_ws/src/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/package.sh"

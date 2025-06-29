@@ -1,0 +1,48 @@
+[4.311s] Invoking command in '/home/himanshu/ros2_ws/src/bme_gazebo_sensors_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_gazebo_sensors_py build --build-base /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build install --record /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[5.824s] running egg_info
+[5.824s] creating ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info
+[5.944s] writing ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/PKG-INFO
+[5.953s] writing dependency_links to ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/dependency_links.txt
+[5.955s] writing entry points to ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/entry_points.txt
+[5.956s] writing requirements to ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/requires.txt
+[5.957s] writing top-level names to ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/top_level.txt
+[5.957s] writing manifest file '../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/SOURCES.txt'
+[6.182s] reading manifest file '../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/SOURCES.txt'
+[6.186s] writing manifest file '../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/SOURCES.txt'
+[6.187s] running build
+[6.188s] running build_py
+[6.189s] creating /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build
+[6.190s] creating /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib
+[6.191s] creating /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[6.192s] copying bme_gazebo_sensors_py/image_republisher.py -> /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[6.193s] copying bme_gazebo_sensors_py/__init__.py -> /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[6.196s] copying bme_gazebo_sensors_py/chase_the_ball.py -> /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[6.197s] copying bme_gazebo_sensors_py/haversine_test.py -> /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[6.198s] copying bme_gazebo_sensors_py/gps_waypoint_follower.py -> /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[6.200s] running install
+[6.233s] running install_lib
+[6.335s] creating /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[6.336s] copying /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/image_republisher.py -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[6.337s] copying /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/__init__.py -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[6.338s] copying /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/chase_the_ball.py -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[6.340s] copying /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/haversine_test.py -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[6.341s] copying /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/gps_waypoint_follower.py -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[6.343s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/image_republisher.py to image_republisher.cpython-312.pyc
+[6.347s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/__init__.py to __init__.cpython-312.pyc
+[6.350s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/chase_the_ball.py to chase_the_ball.cpython-312.pyc
+[6.355s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/haversine_test.py to haversine_test.cpython-312.pyc
+[6.357s] byte-compiling /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/gps_waypoint_follower.py to gps_waypoint_follower.cpython-312.pyc
+[6.365s] running install_data
+[6.365s] creating /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/share/ament_index
+[6.366s] creating /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/share/ament_index/resource_index
+[6.366s] creating /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/share/ament_index/resource_index/packages
+[6.366s] copying resource/bme_gazebo_sensors_py -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/share/ament_index/resource_index/packages
+[6.367s] copying package.xml -> /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py
+[6.367s] running install_egg_info
+[6.485s] Copying ../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info to /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py-1.0.0-py3.12.egg-info
+[6.487s] running install_scripts
+[7.158s] Installing chase_the_ball script to /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/bme_gazebo_sensors_py
+[7.159s] Installing gps_waypoint_follower script to /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/bme_gazebo_sensors_py
+[7.160s] Installing image_republisher script to /home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/bme_gazebo_sensors_py
+[7.162s] writing list of installed files to '/home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/install.log'
+[7.262s] Invoked command in '/home/himanshu/ros2_ws/src/bme_gazebo_sensors_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/bme_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_gazebo_sensors_py build --build-base /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/build install --record /home/himanshu/ros2_ws/src/build/bme_gazebo_sensors_py/install.log --single-version-externally-managed install_data

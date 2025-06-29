@@ -1,0 +1,58 @@
+[0.047s] Invoking command in '/home/himanshu/ros2_ws/src/build/ros2_python_extension': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/ros2_python_extension/ros2_python_extension -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/ros2_python_extension
+[1.694s] -- The C compiler identification is GNU 13.3.0
+[1.695s] -- The CXX compiler identification is GNU 13.3.0
+[1.695s] -- Detecting C compiler ABI info
+[1.695s] -- Detecting C compiler ABI info - done
+[1.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.696s] -- Detecting C compile features
+[1.696s] -- Detecting C compile features - done
+[1.700s] -- Detecting CXX compiler ABI info
+[1.701s] -- Detecting CXX compiler ABI info - done
+[1.701s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.701s] -- Detecting CXX compile features
+[1.702s] -- Detecting CXX compile features - done
+[1.712s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.618s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.351s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.707s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.825s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.975s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.750s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.795s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.337s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.459s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.287s] -- Performing Test HAS_FLTO
+[6.959s] -- Performing Test HAS_FLTO - Success
+[6.964s] -- Found pybind11: /usr/include (found version "2.11.1")
+[7.889s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+[8.312s] -- Configuring done (8.2s)
+[8.332s] -- Generating done (0.0s)
+[8.337s] -- Build files have been written to: /home/himanshu/ros2_ws/src/build/ros2_python_extension
+[8.371s] Invoked command in '/home/himanshu/ros2_ws/src/build/ros2_python_extension' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/ros2_python_extension/ros2_python_extension -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/ros2_python_extension
+[8.462s] Invoking command in '/home/himanshu/ros2_ws/src/build/ros2_python_extension': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/ros2_python_extension -- -j8 -l8
+[12.012s] Invoked command in '/home/himanshu/ros2_ws/src/build/ros2_python_extension' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/ros2_python_extension -- -j8 -l8
+[12.015s] Invoking command in '/home/himanshu/ros2_ws/src/build/ros2_python_extension': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/ros2_python_extension
+[12.053s] -- Install configuration: ""
+[12.053s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/include
+[12.058s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/include/ros2_python_extension
+[12.059s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/include/ros2_python_extension/serialization.hpp
+[12.063s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ament_index/resource_index/package_run_dependencies/ros2_python_extension
+[12.063s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ament_index/resource_index/parent_prefix_path/ros2_python_extension
+[12.064s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/environment/ament_prefix_path.sh
+[12.064s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/environment/ament_prefix_path.dsv
+[12.065s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/environment/path.sh
+[12.065s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/environment/path.dsv
+[12.066s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/local_setup.bash
+[12.066s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/local_setup.sh
+[12.067s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/local_setup.zsh
+[12.069s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/local_setup.dsv
+[12.073s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/package.dsv
+[12.073s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ament_index/resource_index/packages/ros2_python_extension
+[12.073s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.074s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.074s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/cmake/ros2_python_extensionConfig.cmake
+[12.077s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/cmake/ros2_python_extensionConfig-version.cmake
+[12.078s] -- Installing: /home/himanshu/ros2_ws/src/install/ros2_python_extension/share/ros2_python_extension/package.xml
+[12.080s] Invoked command in '/home/himanshu/ros2_ws/src/build/ros2_python_extension' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/ros2_python_extension

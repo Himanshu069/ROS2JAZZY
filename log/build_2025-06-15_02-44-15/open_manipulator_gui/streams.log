@@ -1,0 +1,116 @@
+[0.405s] Invoking command in '/home/himanshu/ros2_ws/src/build/open_manipulator_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/open_manipulator_gui -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/open_manipulator_gui
+[5.201s] -- The C compiler identification is GNU 13.3.0
+[5.201s] -- The CXX compiler identification is GNU 13.3.0
+[5.202s] -- Detecting C compiler ABI info
+[5.202s] -- Detecting C compiler ABI info - done
+[5.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.203s] -- Detecting C compile features
+[5.203s] -- Detecting C compile features - done
+[5.203s] -- Detecting CXX compiler ABI info
+[5.204s] -- Detecting CXX compiler ABI info - done
+[5.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.208s] -- Detecting CXX compile features
+[5.208s] -- Detecting CXX compile features - done
+[5.208s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.164s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.412s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[9.489s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.708s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[10.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.684s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[12.885s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[12.986s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[13.846s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[14.102s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[14.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.987s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[15.148s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[17.318s] -- Found moveit_ros_planning: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[18.546s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[18.797s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[19.054s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[19.627s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[20.655s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[21.445s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[21.445s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[23.367s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[23.405s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[23.539s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[23.784s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[25.075s] -- Configuring done (24.5s)
+[25.537s] -- Generating done (0.2s)
+[25.617s] -- Build files have been written to: /home/himanshu/ros2_ws/src/build/open_manipulator_gui
+[25.673s] Invoked command in '/home/himanshu/ros2_ws/src/build/open_manipulator_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/open_manipulator_gui -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/open_manipulator_gui
+[25.674s] Invoking command in '/home/himanshu/ros2_ws/src/build/open_manipulator_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/open_manipulator_gui -- -j8 -l8
+[38.428s] [  0%] Built target open_manipulator_x_gui_node_autogen_timestamp_deps
+[38.428s] [  0%] Built target open_manipulator_y_gui_node_autogen_timestamp_deps
+[38.429s] [  4%] [34m[1mAutomatic MOC and UIC for target open_manipulator_x_gui_node[0m
+[38.429s] [  4%] Built target open_manipulator_x_gui_node_autogen
+[38.429s] [  8%] [34m[1mAutomatic MOC and UIC for target open_manipulator_y_gui_node[0m
+[38.430s] [  8%] Built target open_manipulator_y_gui_node_autogen
+[38.430s] [ 12%] [34m[1mGenerating ui_x_main_window.h[0m
+[38.435s] [ 16%] [34m[1mGenerating include/open_manipulator_x_gui/moc_qnode.cpp[0m
+[38.435s] [ 20%] [34m[1mGenerating include/open_manipulator_x_gui/moc_main_window.cpp[0m
+[38.436s] [ 25%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o[0m
+[38.436s] [ 29%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o[0m
+[60.619s] [ 33%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o[0m
+[92.966s] [ 37%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/om_x/qnode.cpp.o[0m
+[119.746s] [ 41%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/om_x/main_window.cpp.o[0m
+[148.168s] [ 45%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/om_x/main.cpp.o[0m
+[178.770s] [ 50%] [32m[1mLinking CXX executable open_manipulator_x_gui_node[0m
+[183.379s] [ 54%] Built target open_manipulator_x_gui_node
+[183.422s] [ 58%] [34m[1mGenerating ui_y_main_window.h[0m
+[183.487s] [ 62%] [34m[1mGenerating include/open_manipulator_y_gui/moc_qnode.cpp[0m
+[183.531s] [ 66%] [34m[1mGenerating include/open_manipulator_y_gui/moc_main_window.cpp[0m
+[183.658s] [ 70%] [32mBuilding CXX object CMakeFiles/open_manipulator_y_gui_node.dir/open_manipulator_y_gui_node_autogen/mocs_compilation.cpp.o[0m
+[183.727s] [ 75%] [32mBuilding CXX object CMakeFiles/open_manipulator_y_gui_node.dir/include/open_manipulator_y_gui/moc_qnode.cpp.o[0m
+[200.310s] [ 79%] [32mBuilding CXX object CMakeFiles/open_manipulator_y_gui_node.dir/src/om_y/qnode.cpp.o[0m
+[200.311s] [ 83%] [32mBuilding CXX object CMakeFiles/open_manipulator_y_gui_node.dir/include/open_manipulator_y_gui/moc_main_window.cpp.o[0m
+[200.314s] [ 87%] [32mBuilding CXX object CMakeFiles/open_manipulator_y_gui_node.dir/src/om_y/main.cpp.o[0m
+[200.316s] [ 91%] [32mBuilding CXX object CMakeFiles/open_manipulator_y_gui_node.dir/src/om_y/main_window.cpp.o[0m
+[242.911s] [ 95%] [32m[1mLinking CXX executable open_manipulator_y_gui_node[0m
+[245.983s] [100%] Built target open_manipulator_y_gui_node
+[246.030s] Invoked command in '/home/himanshu/ros2_ws/src/build/open_manipulator_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/open_manipulator_gui -- -j8 -l8
+[246.037s] Invoking command in '/home/himanshu/ros2_ws/src/build/open_manipulator_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/open_manipulator_gui
+[246.068s] -- Install configuration: ""
+[246.069s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/lib/open_manipulator_gui/open_manipulator_x_gui_node
+[246.077s] -- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/src/install/open_manipulator_gui/lib/open_manipulator_gui/open_manipulator_x_gui_node" to ""
+[246.077s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/lib/open_manipulator_gui/open_manipulator_y_gui_node
+[246.080s] -- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/src/install/open_manipulator_gui/lib/open_manipulator_gui/open_manipulator_y_gui_node" to ""
+[246.081s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include
+[246.081s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include/open_manipulator_x_gui
+[246.082s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include/open_manipulator_x_gui/main_window.hpp
+[246.082s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include/open_manipulator_x_gui/qnode.hpp
+[246.082s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include/open_manipulator_y_gui
+[246.083s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include/open_manipulator_y_gui/main_window.hpp
+[246.083s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/include/open_manipulator_y_gui/qnode.hpp
+[246.084s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/launch
+[246.084s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/launch/open_manipulator_x_gui.launch.py
+[246.085s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/launch/open_manipulator_y_gui.launch.py
+[246.085s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/ui
+[246.086s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/ui/x_main_window.ui
+[246.086s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/ui/y_main_window.ui
+[246.087s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/config
+[246.087s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/config/om_y_joint_log.csv
+[246.088s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/config/om_x_joint_log.csv
+[246.089s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/environment/library_path.sh
+[246.089s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/environment/library_path.dsv
+[246.090s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/ament_index/resource_index/package_run_dependencies/open_manipulator_gui
+[246.090s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/ament_index/resource_index/parent_prefix_path/open_manipulator_gui
+[246.091s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/environment/ament_prefix_path.sh
+[246.091s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/environment/ament_prefix_path.dsv
+[246.092s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/environment/path.sh
+[246.092s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/environment/path.dsv
+[246.092s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/local_setup.bash
+[246.093s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/local_setup.sh
+[246.093s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/local_setup.zsh
+[246.094s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/local_setup.dsv
+[246.094s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/package.dsv
+[246.095s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/ament_index/resource_index/packages/open_manipulator_gui
+[246.095s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[246.096s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/cmake/ament_cmake_export_libraries-extras.cmake
+[246.097s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/cmake/open_manipulator_guiConfig.cmake
+[246.097s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/cmake/open_manipulator_guiConfig-version.cmake
+[246.097s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_gui/share/open_manipulator_gui/package.xml
+[246.102s] Invoked command in '/home/himanshu/ros2_ws/src/build/open_manipulator_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/open_manipulator_gui

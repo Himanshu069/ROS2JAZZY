@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/build/bme_gazebo_basics
+-- Install configuration: ""
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/launch
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/world.launch.py
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/world.sdf
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/new_world.sdf
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/empty.sdf
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/urdf.rviz
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/rviz.rviz
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/materials.xacro
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.dae
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STEP
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_left.STL
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.SLDPRT
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STL
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STL
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_right.STL
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.blend
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STEP
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.SLDPRT
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.dae
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.blend
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_basics
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_basics
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.sh
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.dsv
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.sh
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.dsv
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.bash
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.sh
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.zsh
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.dsv
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/ament_index/resource_index/packages/bme_gazebo_basics
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig.cmake
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig-version.cmake
+-- Installing: /home/himanshu/ros2_ws/Week-3-4-Gazebo-basics/bme_gazebo_basics/install/bme_gazebo_basics/share/bme_gazebo_basics/package.xml

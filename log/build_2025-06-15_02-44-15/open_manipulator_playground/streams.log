@@ -1,0 +1,70 @@
+[0.084s] Invoking command in '/home/himanshu/ros2_ws/src/build/open_manipulator_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/open_manipulator_playground -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/open_manipulator_playground
+[19.675s] -- The C compiler identification is GNU 13.3.0
+[19.675s] -- The CXX compiler identification is GNU 13.3.0
+[19.679s] -- Detecting C compiler ABI info
+[19.683s] -- Detecting C compiler ABI info - done
+[19.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[19.684s] -- Detecting C compile features
+[19.684s] -- Detecting C compile features - done
+[19.684s] -- Detecting CXX compiler ABI info
+[19.685s] -- Detecting CXX compiler ABI info - done
+[19.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[19.685s] -- Detecting CXX compile features
+[19.685s] -- Detecting CXX compile features - done
+[19.686s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[19.686s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[19.689s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[19.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[19.697s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[19.697s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[19.698s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.698s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[19.698s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[19.699s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[19.699s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[19.699s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[19.700s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[19.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.702s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[19.703s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[19.703s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[19.703s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.703s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[19.704s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[19.704s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[19.705s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[19.705s] -- Configuring done (13.8s)
+[19.713s] -- Generating done (0.1s)
+[19.714s] -- Build files have been written to: /home/himanshu/ros2_ws/src/build/open_manipulator_playground
+[19.733s] Invoked command in '/home/himanshu/ros2_ws/src/build/open_manipulator_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/himanshu/ros2_ws/src/open_manipulator_playground -DCMAKE_INSTALL_PREFIX=/home/himanshu/ros2_ws/src/install/open_manipulator_playground
+[19.739s] Invoking command in '/home/himanshu/ros2_ws/src/build/open_manipulator_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/open_manipulator_playground -- -j8 -l8
+[22.885s] [ 25%] [32mBuilding CXX object CMakeFiles/hello_moveit_omx.dir/src/hello_moveit_omx.cpp.o[0m
+[46.638s] [ 50%] [32m[1mLinking CXX executable hello_moveit_omx[0m
+[48.149s] [ 50%] Built target hello_moveit_omx
+[48.248s] [ 75%] [32mBuilding CXX object CMakeFiles/hello_moveit_omy.dir/src/hello_moveit_omy.cpp.o[0m
+[73.185s] [100%] [32m[1mLinking CXX executable hello_moveit_omy[0m
+[74.019s] [100%] Built target hello_moveit_omy
+[74.052s] Invoked command in '/home/himanshu/ros2_ws/src/build/open_manipulator_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/src/build/open_manipulator_playground -- -j8 -l8
+[74.092s] Invoking command in '/home/himanshu/ros2_ws/src/build/open_manipulator_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/open_manipulator_playground
+[74.098s] -- Install configuration: ""
+[74.101s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/lib/open_manipulator_playground/hello_moveit_omx
+[74.108s] -- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/src/install/open_manipulator_playground/lib/open_manipulator_playground/hello_moveit_omx" to ""
+[74.108s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/lib/open_manipulator_playground/hello_moveit_omy
+[74.113s] -- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/src/install/open_manipulator_playground/lib/open_manipulator_playground/hello_moveit_omy" to ""
+[74.113s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_playground
+[74.113s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_playground
+[74.114s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/environment/ament_prefix_path.sh
+[74.114s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/environment/ament_prefix_path.dsv
+[74.114s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/environment/path.sh
+[74.115s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/environment/path.dsv
+[74.115s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.bash
+[74.115s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.sh
+[74.116s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.zsh
+[74.116s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.dsv
+[74.116s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/package.dsv
+[74.117s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/ament_index/resource_index/packages/open_manipulator_playground
+[74.118s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/cmake/open_manipulator_playgroundConfig.cmake
+[74.122s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/cmake/open_manipulator_playgroundConfig-version.cmake
+[74.125s] -- Installing: /home/himanshu/ros2_ws/src/install/open_manipulator_playground/share/open_manipulator_playground/package.xml
+[74.155s] Invoked command in '/home/himanshu/ros2_ws/src/build/open_manipulator_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/himanshu/ros2_ws/install/ur_robot_driver:/home/himanshu/ros2_ws/install/ur_mogi_py:/home/himanshu/ros2_ws/install/open_manipulator_mogi_py:/home/himanshu/ros2_ws/install/mogi_trajectory_server:/home/himanshu/ros2_ws/install/map_merge_py:/home/himanshu/ros2_ws/install/bme_ros2_tutorials_py:/home/himanshu/ros2_ws/install/bme_ros2_simple_arm_py:/home/himanshu/ros2_ws/install/bme_ros2_navigation_py:/home/himanshu/ros2_ws/install/bme_gazebo_sensors_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/src/build/open_manipulator_playground

@@ -1,0 +1,5 @@
+-I/home/himanshu/ros2_ws/src/open_manipulator_gui
+-I/home/himanshu/ros2_ws/src/build/open_manipulator_gui
+-o
+/home/himanshu/ros2_ws/src/build/open_manipulator_gui/include/open_manipulator_y_gui/moc_qnode.cpp
+/home/himanshu/ros2_ws/src/open_manipulator_gui/include/open_manipulator_y_gui/qnode.hpp

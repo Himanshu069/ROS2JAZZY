@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bme_ros2_tutorials_interfaces__py",
+		"source" : "/home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_interfaces/bme_ros2_tutorials_interfaces__py"
+	}
+}

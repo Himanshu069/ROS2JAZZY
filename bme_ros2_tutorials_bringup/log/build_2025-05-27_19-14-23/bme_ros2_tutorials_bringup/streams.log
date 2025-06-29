@@ -1,0 +1,11 @@
+[0.015s] Invoking command in '/home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup -- -j8 -l8
+[0.066s] Invoked command in '/home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup -- -j8 -l8
+[0.082s] Invoking command in '/home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup
+[0.094s] -- Install configuration: ""
+[0.095s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.095s]   file INSTALL cannot find
+[0.095s]   "/home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/launch": No such file or
+[0.095s]   directory.
+[0.095s] 
+[0.095s] [0m
+[0.097s] Invoked command in '/home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/himanshu/ros2_ws/bme_ros2_tutorials_bringup/build/bme_ros2_tutorials_bringup

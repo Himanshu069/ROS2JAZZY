@@ -1,0 +1,7 @@
+[console_scripts]
+py_hello_world = bme_ros2_tutorials_py.hello_world:main
+py_publisher = bme_ros2_tutorials_py.publisher:main
+py_service_client = bme_ros2_tutorials_py.service_client:main
+py_service_server = bme_ros2_tutorials_py.service_server:main
+py_subscriber = bme_ros2_tutorials_py.subscriber:main
+python_publisher_with_parameter = bme_ros2_tutorials_py.publisher_oop:main

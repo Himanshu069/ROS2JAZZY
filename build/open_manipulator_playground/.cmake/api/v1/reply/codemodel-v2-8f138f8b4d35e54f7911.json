@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-78d28a558422482ebd0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "open_manipulator_playground",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_moveit_omx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_moveit_omx-e8c21b4d54f81b0e4a68.json",
+					"name" : "hello_moveit_omx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_moveit_omy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_moveit_omy-6bc2ae747e2219fedf7c.json",
+					"name" : "hello_moveit_omy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_playground_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_playground_uninstall-39a4817c5d4a3c41b5e7.json",
+					"name" : "open_manipulator_playground_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-90d0d110a0b5e0197251.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/himanshu/ros2_ws/src/build/open_manipulator_playground",
+		"source" : "/home/himanshu/ros2_ws/src/open_manipulator_playground"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

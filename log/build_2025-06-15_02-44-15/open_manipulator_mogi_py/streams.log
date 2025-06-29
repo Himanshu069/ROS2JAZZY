@@ -1,0 +1,49 @@
+[4.189s] Invoking command in '/home/himanshu/ros2_ws/src/open_manipulator_mogi_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/open_manipulator_mogi_py build --build-base /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build install --record /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/install.log --single-version-externally-managed install_data
+[18.032s] running egg_info
+[18.032s] creating ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info
+[18.032s] writing ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/PKG-INFO
+[18.033s] writing dependency_links to ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/dependency_links.txt
+[18.033s] writing entry points to ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/entry_points.txt
+[18.033s] writing requirements to ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/requires.txt
+[18.033s] writing top-level names to ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/top_level.txt
+[18.033s] writing manifest file '../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/SOURCES.txt'
+[18.033s] reading manifest file '../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/SOURCES.txt'
+[18.034s] writing manifest file '../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info/SOURCES.txt'
+[18.034s] running build
+[18.034s] running build_py
+[18.034s] creating /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build
+[18.034s] creating /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib
+[18.034s] creating /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py
+[18.035s] copying open_manipulator_mogi_py/__init__.py -> /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py
+[18.035s] copying open_manipulator_mogi_py/open_gripper.py -> /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py
+[18.035s] copying open_manipulator_mogi_py/inverse_kinematics.py -> /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py
+[18.035s] copying open_manipulator_mogi_py/send_joint_angles.py -> /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py
+[18.036s] copying open_manipulator_mogi_py/close_gripper.py -> /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py
+[18.036s] running install
+[18.036s] running install_lib
+[18.036s] creating /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py
+[18.037s] copying /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py/__init__.py -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py
+[18.037s] copying /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py/open_gripper.py -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py
+[18.037s] copying /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py/inverse_kinematics.py -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py
+[18.038s] copying /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py/send_joint_angles.py -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py
+[18.040s] copying /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build/lib/open_manipulator_mogi_py/close_gripper.py -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py
+[18.040s] byte-compiling /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py/__init__.py to __init__.cpython-312.pyc
+[18.041s] byte-compiling /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py/open_gripper.py to open_gripper.cpython-312.pyc
+[18.045s] byte-compiling /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py/inverse_kinematics.py to inverse_kinematics.cpython-312.pyc
+[18.050s] byte-compiling /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py/send_joint_angles.py to send_joint_angles.cpython-312.pyc
+[18.051s] byte-compiling /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py/close_gripper.py to close_gripper.cpython-312.pyc
+[18.051s] running install_data
+[18.051s] creating /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/share/ament_index
+[18.052s] creating /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/share/ament_index/resource_index
+[18.053s] creating /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/share/ament_index/resource_index/packages
+[18.053s] copying resource/open_manipulator_mogi_py -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/share/ament_index/resource_index/packages
+[18.053s] copying package.xml -> /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/share/open_manipulator_mogi_py
+[18.054s] running install_egg_info
+[18.054s] Copying ../build/open_manipulator_mogi_py/open_manipulator_mogi_py.egg-info to /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages/open_manipulator_mogi_py-1.0.0-py3.12.egg-info
+[18.054s] running install_scripts
+[18.060s] Installing close_gripper script to /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/open_manipulator_mogi_py
+[18.060s] Installing inverse_kinematics script to /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/open_manipulator_mogi_py
+[18.061s] Installing open_gripper script to /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/open_manipulator_mogi_py
+[18.061s] Installing send_joint_angles script to /home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/open_manipulator_mogi_py
+[18.063s] writing list of installed files to '/home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/install.log'
+[18.071s] Invoked command in '/home/himanshu/ros2_ws/src/open_manipulator_mogi_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himanshu/ros2_ws/src/install/open_manipulator_mogi_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/open_manipulator_mogi_py build --build-base /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/build install --record /home/himanshu/ros2_ws/src/build/open_manipulator_mogi_py/install.log --single-version-externally-managed install_data

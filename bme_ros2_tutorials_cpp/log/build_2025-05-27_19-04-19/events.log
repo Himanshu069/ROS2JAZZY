@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (bme_ros2_tutorials_cpp) JobQueued: {'identifier': 'bme_ros2_tutorials_cpp', 'dependencies': OrderedDict()}
+[0.000693] (bme_ros2_tutorials_cpp) JobStarted: {'identifier': 'bme_ros2_tutorials_cpp'}
+[0.018745] (bme_ros2_tutorials_cpp) JobProgress: {'identifier': 'bme_ros2_tutorials_cpp', 'progress': 'cmake'}
+[0.020710] (bme_ros2_tutorials_cpp) JobProgress: {'identifier': 'bme_ros2_tutorials_cpp', 'progress': 'build'}
+[0.021863] (bme_ros2_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp', '--', '-j8', '-l8'], 'cwd': '/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'himanshu', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/himanshu', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/himanshu/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3409', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'himanshu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'himanshu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/himanshu/miniconda3/bin:/home/himanshu/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/himanshu-Nitro-AN515-54:@/tmp/.ICE-unix/3370,unix/himanshu-Nitro-AN515-54:/tmp/.ICE-unix/3370', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b590c5bc_a1b2_49d8_a507_576a94c31bd2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/himanshu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/himanshu/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/himanshu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/himanshu/miniconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099506] (-) TimerEvent: {}
+[0.130433] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199728] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.400719] (-) TimerEvent: {}
+[0.501014] (-) TimerEvent: {}
+[0.560764] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.601277] (-) TimerEvent: {}
+[0.701817] (-) TimerEvent: {}
+[0.715431] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.770338] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.801964] (-) TimerEvent: {}
+[0.811099] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.838406] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902160] (-) TimerEvent: {}
+[0.957045] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.961590] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002246] (-) TimerEvent: {}
+[1.078166] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102372] (-) TimerEvent: {}
+[1.202277] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.202512] (-) TimerEvent: {}
+[1.231251] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.302709] (-) TimerEvent: {}
+[1.403430] (-) TimerEvent: {}
+[1.497546] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.497869] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.498181] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.501885] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.502056] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.503512] (-) TimerEvent: {}
+[1.507804] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.511154] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.529805] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.530021] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.533655] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.536658] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.575959] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.588431] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp\n'}
+[1.603677] (-) TimerEvent: {}
+[1.648903] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_cpp.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.665142] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'[ 75%] Built target publisher_cpp\n'}
+[1.703818] (-) TimerEvent: {}
+[1.804152] (-) TimerEvent: {}
+[1.904501] (-) TimerEvent: {}
+[2.004839] (-) TimerEvent: {}
+[2.105824] (-) TimerEvent: {}
+[2.206102] (-) TimerEvent: {}
+[2.306380] (-) TimerEvent: {}
+[2.406803] (-) TimerEvent: {}
+[2.507141] (-) TimerEvent: {}
+[2.607745] (-) TimerEvent: {}
+[2.708177] (-) TimerEvent: {}
+[2.808502] (-) TimerEvent: {}
+[2.908774] (-) TimerEvent: {}
+[3.009119] (-) TimerEvent: {}
+[3.109431] (-) TimerEvent: {}
+[3.209930] (-) TimerEvent: {}
+[3.310624] (-) TimerEvent: {}
+[3.410935] (-) TimerEvent: {}
+[3.511356] (-) TimerEvent: {}
+[3.612350] (-) TimerEvent: {}
+[3.714156] (-) TimerEvent: {}
+[3.814490] (-) TimerEvent: {}
+[3.914828] (-) TimerEvent: {}
+[4.015330] (-) TimerEvent: {}
+[4.116160] (-) TimerEvent: {}
+[4.216768] (-) TimerEvent: {}
+[4.317413] (-) TimerEvent: {}
+[4.418015] (-) TimerEvent: {}
+[4.518572] (-) TimerEvent: {}
+[4.619298] (-) TimerEvent: {}
+[4.719882] (-) TimerEvent: {}
+[4.820207] (-) TimerEvent: {}
+[4.920547] (-) TimerEvent: {}
+[5.021158] (-) TimerEvent: {}
+[5.121842] (-) TimerEvent: {}
+[5.223089] (-) TimerEvent: {}
+[5.323519] (-) TimerEvent: {}
+[5.423842] (-) TimerEvent: {}
+[5.524271] (-) TimerEvent: {}
+[5.625381] (-) TimerEvent: {}
+[5.725852] (-) TimerEvent: {}
+[5.826236] (-) TimerEvent: {}
+[5.926571] (-) TimerEvent: {}
+[6.026933] (-) TimerEvent: {}
+[6.127288] (-) TimerEvent: {}
+[6.227777] (-) TimerEvent: {}
+[6.328471] (-) TimerEvent: {}
+[6.429148] (-) TimerEvent: {}
+[6.529822] (-) TimerEvent: {}
+[6.630559] (-) TimerEvent: {}
+[6.731183] (-) TimerEvent: {}
+[6.831545] (-) TimerEvent: {}
+[6.931985] (-) TimerEvent: {}
+[7.032407] (-) TimerEvent: {}
+[7.132767] (-) TimerEvent: {}
+[7.233122] (-) TimerEvent: {}
+[7.333442] (-) TimerEvent: {}
+[7.433802] (-) TimerEvent: {}
+[7.534159] (-) TimerEvent: {}
+[7.634486] (-) TimerEvent: {}
+[7.734808] (-) TimerEvent: {}
+[7.835174] (-) TimerEvent: {}
+[7.935466] (-) TimerEvent: {}
+[8.035748] (-) TimerEvent: {}
+[8.136156] (-) TimerEvent: {}
+[8.236542] (-) TimerEvent: {}
+[8.336907] (-) TimerEvent: {}
+[8.437242] (-) TimerEvent: {}
+[8.537608] (-) TimerEvent: {}
+[8.638028] (-) TimerEvent: {}
+[8.738407] (-) TimerEvent: {}
+[8.838730] (-) TimerEvent: {}
+[8.939079] (-) TimerEvent: {}
+[9.039771] (-) TimerEvent: {}
+[9.140295] (-) TimerEvent: {}
+[9.240702] (-) TimerEvent: {}
+[9.341222] (-) TimerEvent: {}
+[9.441629] (-) TimerEvent: {}
+[9.542037] (-) TimerEvent: {}
+[9.642479] (-) TimerEvent: {}
+[9.742883] (-) TimerEvent: {}
+[9.843323] (-) TimerEvent: {}
+[9.943644] (-) TimerEvent: {}
+[10.043954] (-) TimerEvent: {}
+[10.144294] (-) TimerEvent: {}
+[10.244677] (-) TimerEvent: {}
+[10.344993] (-) TimerEvent: {}
+[10.445374] (-) TimerEvent: {}
+[10.545698] (-) TimerEvent: {}
+[10.646099] (-) TimerEvent: {}
+[10.746402] (-) TimerEvent: {}
+[10.846699] (-) TimerEvent: {}
+[10.946971] (-) TimerEvent: {}
+[11.047348] (-) TimerEvent: {}
+[11.147705] (-) TimerEvent: {}
+[11.248582] (-) TimerEvent: {}
+[11.348945] (-) TimerEvent: {}
+[11.449233] (-) TimerEvent: {}
+[11.549543] (-) TimerEvent: {}
+[11.649805] (-) TimerEvent: {}
+[11.750152] (-) TimerEvent: {}
+[11.850453] (-) TimerEvent: {}
+[11.950760] (-) TimerEvent: {}
+[12.051065] (-) TimerEvent: {}
+[12.151373] (-) TimerEvent: {}
+[12.251660] (-) TimerEvent: {}
+[12.352021] (-) TimerEvent: {}
+[12.452344] (-) TimerEvent: {}
+[12.552648] (-) TimerEvent: {}
+[12.653096] (-) TimerEvent: {}
+[12.753748] (-) TimerEvent: {}
+[12.854348] (-) TimerEvent: {}
+[12.954727] (-) TimerEvent: {}
+[13.055026] (-) TimerEvent: {}
+[13.155445] (-) TimerEvent: {}
+[13.255781] (-) TimerEvent: {}
+[13.356137] (-) TimerEvent: {}
+[13.456513] (-) TimerEvent: {}
+[13.557531] (-) TimerEvent: {}
+[13.658242] (-) TimerEvent: {}
+[13.695861] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_cpp\x1b[0m\n'}
+[13.758450] (-) TimerEvent: {}
+[13.859111] (-) TimerEvent: {}
+[13.959726] (-) TimerEvent: {}
+[14.060126] (-) TimerEvent: {}
+[14.160509] (-) TimerEvent: {}
+[14.260780] (-) TimerEvent: {}
+[14.305826] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'[100%] Built target subscriber_cpp\n'}
+[14.321182] (bme_ros2_tutorials_cpp) CommandEnded: {'returncode': 0}
+[14.322170] (bme_ros2_tutorials_cpp) JobProgress: {'identifier': 'bme_ros2_tutorials_cpp', 'progress': 'install'}
+[14.334064] (bme_ros2_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp'], 'cwd': '/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'himanshu', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/himanshu', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/himanshu/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3409', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'himanshu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'himanshu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/himanshu/miniconda3/bin:/home/himanshu/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/himanshu-Nitro-AN515-54:@/tmp/.ICE-unix/3370,unix/himanshu-Nitro-AN515-54:/tmp/.ICE-unix/3370', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b590c5bc_a1b2_49d8_a507_576a94c31bd2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/himanshu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/build/bme_ros2_tutorials_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/himanshu/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/himanshu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/himanshu/miniconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.344667] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.346010] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/lib/bme_ros2_tutorials_cpp/publisher_cpp\n'}
+[14.346446] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/lib/bme_ros2_tutorials_cpp/subscriber_cpp\n'}
+[14.352242] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/lib/bme_ros2_tutorials_cpp/subscriber_cpp" to ""\n'}
+[14.352618] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/bme_ros2_tutorials_cpp\n'}
+[14.352918] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/bme_ros2_tutorials_cpp\n'}
+[14.353184] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/environment/ament_prefix_path.sh\n'}
+[14.353416] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/environment/ament_prefix_path.dsv\n'}
+[14.353586] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/environment/path.sh\n'}
+[14.353741] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/environment/path.dsv\n'}
+[14.353895] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/local_setup.bash\n'}
+[14.354048] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/local_setup.sh\n'}
+[14.354168] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/local_setup.zsh\n'}
+[14.354263] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/local_setup.dsv\n'}
+[14.354357] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/package.dsv\n'}
+[14.354449] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/ament_index/resource_index/packages/bme_ros2_tutorials_cpp\n'}
+[14.354559] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/cmake/bme_ros2_tutorials_cppConfig.cmake\n'}
+[14.354648] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/cmake/bme_ros2_tutorials_cppConfig-version.cmake\n'}
+[14.354735] (bme_ros2_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/himanshu/ros2_ws/bme_ros2_tutorials_cpp/install/bme_ros2_tutorials_cpp/share/bme_ros2_tutorials_cpp/package.xml\n'}
+[14.355770] (bme_ros2_tutorials_cpp) CommandEnded: {'returncode': 0}
+[14.360862] (-) TimerEvent: {}
+[14.382077] (bme_ros2_tutorials_cpp) JobEnded: {'identifier': 'bme_ros2_tutorials_cpp', 'rc': 0}
+[14.383140] (-) EventReactorShutdown: {}

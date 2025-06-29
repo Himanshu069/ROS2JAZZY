@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3177bc21e4c803752c9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "bme_ros2_tutorials_interfaces__py",
+					"jsonFile" : "directory-bme_ros2_tutorials_interfaces__py-de395b56559f0d55b4c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_interfaces/bme_ros2_tutorials_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "bme_ros2_tutorials_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bme_ros2_tutorials_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bme_ros2_tutorials_interfaces_egg-e48cf95dd62952ea43d4.json",
+					"name" : "ament_cmake_python_build_bme_ros2_tutorials_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bme_ros2_tutorials_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bme_ros2_tutorials_interfaces-a202cfe81a3942e67f53.json",
+					"name" : "ament_cmake_python_copy_bme_ros2_tutorials_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces-e5b4c3f06b2c2cd0b0d5.json",
+					"name" : "bme_ros2_tutorials_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__cpp-b77cbd8765a70656044a.json",
+					"name" : "bme_ros2_tutorials_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bme_ros2_tutorials_interfaces__py::@d02303446d7345a6fa44",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__py-fe3b119bd067c4efd3e0.json",
+					"name" : "bme_ros2_tutorials_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_generator_c-2c22941d7009b48b6c08.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_generator_py-1a7e7bcdb08c0c886056.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_generator_type_description-272564460600ee9eeea3.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_typesupport_c-fbf7780d44997d91a61b.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_typesupport_cpp-b8de581b5ae65b74a0a8.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_typesupport_fastrtps_c-d37165747c2e904f5f79.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp-dc8675ad54901464361e.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_typesupport_introspection_c-493c81eda000f44f5bd1.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces__rosidl_typesupport_introspection_cpp-dc25fa875cbda649df9e.json",
+					"name" : "bme_ros2_tutorials_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces_s__rosidl_typesupport_c-390f10b01d12704c2d4d.json",
+					"name" : "bme_ros2_tutorials_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c-653b8c58d6ee21a44a59.json",
+					"name" : "bme_ros2_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces_s__rosidl_typesupport_introspection_c-d729e9a2ca293fa40173.json",
+					"name" : "bme_ros2_tutorials_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bme_ros2_tutorials_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bme_ros2_tutorials_interfaces_uninstall-f31091e20dbe30993c79.json",
+					"name" : "bme_ros2_tutorials_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3caaf63cb31aec1bb44c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/himanshu/ros2_ws/src/build/bme_ros2_tutorials_interfaces",
+		"source" : "/home/himanshu/ros2_ws/src/bme_ros2_tutorials_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
